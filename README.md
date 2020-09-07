@@ -18,7 +18,7 @@ sudo : It is only used in Mac system as they need permission to install package 
 
 <b>Step 4:</b> Run <code> $ npm init </code> 
 
-![init terminal result](images/terminal.png){:height="700px" width="400px"}
+![init terminal result](images/terminal.png)
 
 It is used to make package.json file.
 
