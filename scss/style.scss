@@ -1,28 +1,30 @@
-// import google fonts
-@import 'font/fonts';
+/* Define standard variables and values for website */
+$bgcolor: lightblue;
+$textcolor: darkblue;
+$fontsize: 18px;
 
-// Bootstrap main scss
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
+/* Use the variables */
+body {
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+}
 
-@import "mixins/responsive";
-@import "mixins/clearfix";
-@import "mixins/css3";
-@import "mixins/animation";
-
-// Project core scss
-@import "base/core";
-@import "base/variables";
-@import "base/general";
-@import "base/sidebar";
-
-// Main layout
-@import "base/layout";
-
-// Bootstrap custome component 
-@import "bootstrap/bootstrap";
-
-// plugin scss
-@import "plugin/datepicker";
-@import "plugin/add-note";
-@import "plugin/todo";
-
+/* nested scss */
+nav {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      display: inline-block;
+    }
+    a {
+      display: block;
+      padding: 6px 12px;
+      text-decoration: none;
+    }
+  }
+  
+  
