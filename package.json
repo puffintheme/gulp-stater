@@ -1,0 +1,27 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "Demo for Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puffintheme/gulp-stater.git"
+  },
+  "keywords": [
+    "Gulp",
+    "Intro",
+    "guide"
+  ],
+  "author": "puffintheme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puffintheme/gulp-stater/issues"
+  },
+  "homepage": "https://github.com/puffintheme/gulp-stater#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
