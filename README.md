@@ -18,7 +18,7 @@ sudo : It is only used in Mac system as they need permission to install package 
 
 <b>Step 4:</b> Run <code> $ npm init </code> 
 
-![init terminal result](images/terminal.png)
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/terminal.png" width="100" height="100">
 
 It is used to make package.json file.
 
@@ -26,13 +26,13 @@ It is used to make package.json file.
 
 install Gulp into the project. When done you can check package.json file there will be gulp in the end with it’s version.
 
-![gulp file with verion](images/package.png | width=100)
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/package.png" width="100" height="100">
 
 And also gulp will be added to node_module folder.
 
 <b>Step 6 :</b> Folder structure  for <code>gulpfile.js<code>
 
-![project folder structure](images/folderstructure.png | width=100)
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/folderstructure.png" width="100" height="100">
 
 <b>Step 7 : </b> Defin variable for Gulp to run
 
