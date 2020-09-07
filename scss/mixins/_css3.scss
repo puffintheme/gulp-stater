@@ -1,0 +1,37 @@
+// mixins for CSS3 features
+
+@mixin transition($transition) {
+	-webkit-transition: $transition;
+	-moz-transition: $transition;
+	-ms-transition: $transition;
+	-o-transition: $transition;
+	transition: $transition;
+}
+
+@mixin box-shadow($box-shadow) {
+	-moz-box-shadow: $box-shadow;
+	-webkit-box-shadow: $box-shadow;
+	box-shadow: $box-shadow;
+}
+
+@mixin opacity($opacity) {
+	opacity: $opacity;
+	$opacity-ie: $opacity * 100;
+	filter: alpha(opacity=$opacity-ie); //IE8
+}
+
+@mixin scrollbar($scrollbar) {
+	overflow-y: auto;
+    overflow-y: scroll;
+    scrollbar-width: none; // Firefox
+    -ms-overflow-style: none;  // IE 10+
+
+    &::-webkit-scrollbar {
+        width: 0;
+        background-color: var(--sidebar-bg);
+    }
+    &::-webkit-scrollbar-thumb {
+        background: var(--font-eee);
+        border-radius: 5px;
+    }
+}

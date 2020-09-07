@@ -1,0 +1,28 @@
+// import google fonts
+@import 'font/fonts';
+
+// Bootstrap main scss
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "mixins/responsive";
+@import "mixins/clearfix";
+@import "mixins/css3";
+@import "mixins/animation";
+
+// Project core scss
+@import "base/core";
+@import "base/variables";
+@import "base/general";
+@import "base/sidebar";
+
+// Main layout
+@import "base/layout";
+
+// Bootstrap custome component 
+@import "bootstrap/bootstrap";
+
+// plugin scss
+@import "plugin/datepicker";
+@import "plugin/add-note";
+@import "plugin/todo";
+

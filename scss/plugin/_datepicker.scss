@@ -1,0 +1,21 @@
+.datepicker-inline{
+    width: 100%;
+    
+    .table-condensed{
+        width: 100%;
+
+        td, th{
+            height: 48px;
+        }
+        td{
+            &.today{
+                background: var(--primary-color);
+                color: $white;
+            }
+            &.active.active{
+                background: var(--secondary-color);
+                color: $white;
+            }
+        }
+    }
+}

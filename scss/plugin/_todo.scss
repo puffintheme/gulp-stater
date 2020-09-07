@@ -1,0 +1,14 @@
+.todo-list-items{
+    li{
+        border-bottom: 1px solid var(--border-color);
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        height: 55px;
+        
+        .btn{
+            position: absolute;
+            right: 20px;
+        }
+    }
+}
