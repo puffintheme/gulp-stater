@@ -32,7 +32,7 @@ And also gulp will be added to node_module folder.
 
 <b>Step 6 :</b> Folder structure  for <code>gulpfile.js<code>
 
-<code>
+
 |- dist/<br>
 	|- assets/<br>
 		|- css/<br>
@@ -47,7 +47,7 @@ And also gulp will be added to node_module folder.
 |- gulpfile.js<br>
 |- package.json<br>
 |- Readme.md<br>
-</code>
+
 
 <b>Step 7 : </b> Defin variable for Gulp to run
 
