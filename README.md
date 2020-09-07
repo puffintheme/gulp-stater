@@ -33,7 +33,7 @@ And also gulp will be added to node_module folder.
 <b>Step 6 :</b> Folder structure  for <code>gulpfile.js<code>
 
 
-|- dist/<br/>
+|- dist/
 	|- assets/
 		|- css/
 			|- style.min.css
