@@ -16,23 +16,23 @@ sudo : It is only used in Mac system as they need permission to install package 
 
 ## Step 3 : Select Project where you want to integrate Gulp or Create new one with HTML SCSS JS files.
 
-## Step 4: Run ```bash $ npm init ``` 
+## Step 4: Run ($ npm init)  
 
-<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/terminal.png" width="100" height="100">
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/terminal.png" width="200" height="200">
 
 It is used to make package.json file.
 
-## Step 5 : Run ```bash $ npm install gulp --save-dev ```
+## Step 5 : Run ($ npm install gulp --save-dev) 
 
 install Gulp into the project. When done you can check package.json file there will be gulp in the end with it’s version.
 
-<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/package.png" width="100" height="100">
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/package.png" width="200" height="200">
 
 And also gulp will be added to node_module folder.
 
-## Step 6 : Folder structure  for ```bash gulpfile.js ```
+## Step 6 : Folder structure  for (gulpfile.js) 
 
-<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/folderstructure.png" width="100" height="100">
+<img src="https://github.com/puffintheme/gulp-stater/blob/master/images/folderstructure.png" width="200" height="200">
 
 ## Step 7 :  Defin variable for Gulp to run
 
