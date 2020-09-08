@@ -1,12 +1,12 @@
 # gulp-stater
 
-<b>Step 1 :</b> Install node “https://nodejs.org/en/download/“
+## Step 1 : Install node “https://nodejs.org/en/download/“
 
-<b>Step 2 :</b> Installing gulp
+## Step 2 : Installing gulp
 
-Windows : <code> $ npm install gulp -g </code>
+Windows : ```bash $ npm install gulp -g ```
 OR
-Mac : <code> $ sudo npm install gulp -g  </code>
+Mac : ```bash $ sudo npm install gulp -g  ```
 
 Explanation :
 NPM : Node Pacakage Manager 
@@ -14,15 +14,15 @@ npm install gulp: will install gulp
 -g : It is used to install package globally in your system
 sudo : It is only used in Mac system as they need permission to install package globally.
 
-<b>Step 3 :</b> Select Project where you want to integrate Gulp or Create new one with HTML SCSS JS files.
+## Step 3 : Select Project where you want to integrate Gulp or Create new one with HTML SCSS JS files.
 
-<b>Step 4:</b> Run <code> $ npm init </code> 
+## Step 4: Run ```bash $ npm init ``` 
 
 <img src="https://github.com/puffintheme/gulp-stater/blob/master/images/terminal.png" width="100" height="100">
 
 It is used to make package.json file.
 
-<b>Step 5 :</b> Run <code> $ npm install gulp --save-dev </code>
+## Step 5 : Run ```bash $ npm install gulp --save-dev ```
 
 install Gulp into the project. When done you can check package.json file there will be gulp in the end with it’s version.
 
@@ -30,45 +30,45 @@ install Gulp into the project. When done you can check package.json file there w
 
 And also gulp will be added to node_module folder.
 
-<b>Step 6 :</b> Folder structure  for <code>gulpfile.js<code>
+## Step 6 : Folder structure  for ```bash gulpfile.js ```
 
 <img src="https://github.com/puffintheme/gulp-stater/blob/master/images/folderstructure.png" width="100" height="100">
 
-<b>Step 7 : </b> Defin variable for Gulp to run
+## Step 7 :  Defin variable for Gulp to run
 
-<code> var gulp = require('gulp'); </code>
+```bash var gulp = require('gulp'); ```
 
-<b>Step 8 : </b> gulp npm file for converting scss to css
+## Step 8 :  gulp npm file for converting scss to css
 
-<code> $ npm install gulp-sass --save-dev </code>
+```bash $ npm install gulp-sass --save-dev ```
 
 Syntex :
-<code>
+```bash
 gulp.task('sass', function(){
   return gulp.src('source-files')
     .pipe(sass()) // Using gulp-sass
     .pipe(gulp.dest('destination'))
 });
-</code>
+```
 
 Or if you want to convert multipal scss file to css then
 
 Syntex :
-<code>
+```bash
 gulp.task('sass', function() {
   return gulp.src('scss/**/*.scss') // Gets all files ending with .scss in app/scss and children dirs
     .pipe(sass())
     .pipe(gulp.dest('dist/assets/css/'))
 })
-</code>
+```
 
-<b> Step 9: </b> watching for change 
+## Step 9:  watching for change 
 
 Syntex :
-<code> gulp.watch('files-to-watch', gulp.series(['tasks', 'to', 'run'])); </code>
+```bash gulp.watch('files-to-watch', gulp.series(['tasks', 'to', 'run'])); ```
 
-<b> Step 10: </b> Browser Sync 
+## Step 10:  Browser Sync 
 
-<code> $ npm install browser-sync --save-dev </code>
+```bash $ npm install browser-sync --save-dev ```
 
-Run <code>npm install</code> for live demo.
+Run ```bash npm install ``` for live demo.
